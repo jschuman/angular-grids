@@ -1,3 +1,7 @@
+export interface IOlympicDataWithId extends IOlympicData {
+    id: number;
+}
+
 export interface IOlympicData {
     athlete: string,
     age: number,

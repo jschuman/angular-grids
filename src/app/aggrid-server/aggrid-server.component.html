@@ -1,0 +1,21 @@
+<p>AG Grid - Server Side Pagination</p>
+
+<!-- The AG Grid component -->
+<ag-grid-angular
+    class="ag-theme-quartz"
+    style="height: 400px;"
+    [rowModelType]="rowModelType"
+    [cacheBlockSize]="cacheBlockSize"
+    [cacheOverflowSize]="cacheOverflowSize"
+    [maxConcurrentDatasourceRequests]="maxConcurrentDatasourceRequests"
+    [infiniteInitialRowCount]="infiniteInitialRowCount"
+    [maxBlocksInCache]="maxBlocksInCache"
+
+    [rowData]="rowData"
+    [defaultColDef]="defaultColDef"
+    [columnDefs]="columnDefs"
+    [pagination]="pagination"
+    [paginationAutoPageSize]="true"
+    [getRowId]="getRowId"
+    (gridReady)="onGridReady($event)"
+></ag-grid-angular>
