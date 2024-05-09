@@ -5,7 +5,10 @@
     class="ag-theme-quartz"
     style="height: 400px;"
     [rowData]="rowData"
-    [columnTypes]="columnTypes"
     [defaultColDef]="defaultColDef"
-    [columnDefs]="colDefs">
-</ag-grid-angular>
+    [columnDefs]="columnDefs"
+    (gridReady)="onGridReady($event)"
+    [pagination]="pagination"
+    [paginationPageSize]="paginationPageSize"
+    [paginationPageSizeSelector]="paginationPageSizeSelector"
+></ag-grid-angular>
