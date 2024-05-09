@@ -27,13 +27,17 @@ export class AggridComponent {
         width: 150,
         valueFormatter: this.CurrencyFormatter
     },
-};
+  };
 
+  defaultColDef: ColDef = {
+    minWidth: 150,
+    filter: "agTextColumnFilter"
+  }
 
   // Column Definitions: Defines the columns to be displayed.
   colDefs: ColDef[] = [
     { headerName: "Make & Model", valueGetter: p => `${p.data.make} ${p.data.model}` },
-    { field: "model" },
+    { field: "model"},
     { field: "price", type: 'currency' },
     { field: "electric" }
   ];
