@@ -14,3 +14,7 @@ export interface IOlympicData {
     bronze: number,
     total: number
 }
+
+export interface IButtonCellParams {
+    color:string
+}
