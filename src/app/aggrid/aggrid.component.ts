@@ -5,7 +5,7 @@ import { ColDef, GridReadyEvent, ICellRendererParams } from 'ag-grid-community';
 import { IButtonCellParams, IOlympicData } from '../../interfaces';
 import { ButtonCellRendererComponent } from '../button-cell-renderer/button-cell-renderer.component';
 import { ContractCellRendererComponent } from '../contract-cell-renderer/contract-cell-renderer.component';
-
+import data from "../../assets/data.json";
 
 @Component({
   selector: 'app-aggrid',
@@ -18,7 +18,7 @@ import { ContractCellRendererComponent } from '../contract-cell-renderer/contrac
 export class AggridComponent {
 
   // Row Data: The data to be displayed.
-  public rowData!: IOlympicData[];
+  public rowData: any[] = data as any[];
 
   public defaultColDef: ColDef = {
     minWidth: 100,
@@ -88,10 +88,12 @@ export class AggridComponent {
   constructor(private http: HttpClient) { }
 
   onGridReady(params: GridReadyEvent<IOlympicData>) {
-    this.http
-      .get<
-        IOlympicData[]
-      >("https://www.ag-grid.com/example-assets/olympic-winners.json")
-      .subscribe((data) => (this.rowData = data));
+
+    // this.http
+    //   .get<
+    //     IOlympicData[]
+    //   >("https://www.ag-grid.com/example-assets/olympic-winners.json")
+    //   .subscribe((data) => (this.rowData = data));
+    
   }
 }

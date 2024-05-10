@@ -3,7 +3,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AgGridAngular } from 'ag-grid-angular';
 import { 
   ColDef, 
-  GridReadyEvent, 
+  GridReadyEvent,
+  FilterChangedEvent, 
   RowModelType, 
   GetRowIdFunc,
   GetRowIdParams,
@@ -60,10 +61,10 @@ export class AggridServerComponent {
   ];
 
   public pagination = true;
-  public paginationPageSize = 20;
+  public paginationPageSize = 100;
   public paginationPageSizeSelector = [10, 20, 50, 100];
 
-  public cacheBlockSize = 10;
+  public cacheBlockSize = 200;
   public maxConcurrentDatasourceRequests = 2;
   public infiniteInitialRowCount = 1;
   public maxBlocksInCache = 2;
@@ -94,4 +95,5 @@ export class AggridServerComponent {
         params.api!.setGridOption("datasource", fakeServer);
       });
   }
+
 }

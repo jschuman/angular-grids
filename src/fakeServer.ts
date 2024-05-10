@@ -85,7 +85,7 @@ export function FakeServer(allData: IOlympicDataWithId[]): IDatasource {
 
         getRows: (params: IGetRowsParams) => {
             console.log("asking for " + params.startRow + " to " + params.endRow);
-
+            
             // At this point in your code, you would call the server.
             // To make the demo look real, wait for 500ms before returning
             setTimeout(() => {
@@ -100,10 +100,12 @@ export function FakeServer(allData: IOlympicDataWithId[]): IDatasource {
                     params.endRow,
                 );
                 // if on or after the last page, work out the last row.
-                let lastRow = -1;
-                if (dataAfterSortingAndFiltering.length <= params.endRow) {
-                    lastRow = dataAfterSortingAndFiltering.length;
-                }
+                // since we know all the filtered data, set the lastRow here so the pagination control shows the total number of records and pages
+                let lastRow = dataAfterSortingAndFiltering.length;
+                
+                // if (dataAfterSortingAndFiltering.length <= params.endRow) {
+                //     lastRow = dataAfterSortingAndFiltering.length;
+                // }
                 // call the success callback
                 params.successCallback(rowsThisPage, lastRow);
             }, 500);

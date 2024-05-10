@@ -1,0 +1,1172 @@
+[
+    {
+        "athlete": "Missy Franklin",
+        "age": 31,
+        "country": "Japan",
+        "year": 1988,
+        "sport": "Tennis",
+        "gold": 3,
+        "silver": 3,
+        "bronze": 2
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 20,
+        "country": "France",
+        "year": 2004,
+        "sport": "Cycling",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 24,
+        "country": "Great Britain",
+        "year": 1992,
+        "sport": "Gymnastics",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 27,
+        "country": "Great Britain",
+        "year": 2012,
+        "sport": "Soccer",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 26,
+        "country": "France",
+        "year": 1996,
+        "sport": "Boxing",
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 32,
+        "country": "United States",
+        "year": 2016,
+        "sport": "Athletics",
+        "gold": 3,
+        "silver": 2,
+        "bronze": 1
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 23,
+        "country": "Japan",
+        "year": 2000,
+        "sport": "Rowing",
+        "gold": 1,
+        "silver": 3,
+        "bronze": 3
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 20,
+        "country": "France",
+        "year": 2004,
+        "sport": "Cycling",
+        "gold": 4,
+        "silver": 4,
+        "bronze": 1
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 23,
+        "country": "Great Britain",
+        "year": 1988,
+        "sport": "Gymnastics",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 32,
+        "country": "Japan",
+        "year": 2016,
+        "sport": "Cycling",
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 34,
+        "country": "Japan",
+        "year": 2000,
+        "sport": "Boxing",
+        "gold": 4,
+        "silver": 2,
+        "bronze": 2
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 35,
+        "country": "Italy",
+        "year": 1988,
+        "sport": "Swimming",
+        "gold": 2,
+        "silver": 3,
+        "bronze": 3
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 35,
+        "country": "United States",
+        "year": 2000,
+        "sport": "Cycling",
+        "gold": 1,
+        "silver": 4,
+        "bronze": 2
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 35,
+        "country": "Russia",
+        "year": 1992,
+        "sport": "Cycling",
+        "gold": 1,
+        "silver": 2,
+        "bronze": 1
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 34,
+        "country": "United States",
+        "year": 2016,
+        "sport": "Volleyball",
+        "gold": 4,
+        "silver": 0,
+        "bronze": 0
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 27,
+        "country": "Italy",
+        "year": 1992,
+        "sport": "Cycling",
+        "gold": 2,
+        "silver": 4,
+        "bronze": 1
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 21,
+        "country": "Australia",
+        "year": 1992,
+        "sport": "Tennis",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 32,
+        "country": "Italy",
+        "year": 1984,
+        "sport": "Athletics",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 29,
+        "country": "France",
+        "year": 1992,
+        "sport": "Swimming",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 2
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 33,
+        "country": "South Korea",
+        "year": 1992,
+        "sport": "Boxing",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 4
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 24,
+        "country": "United States",
+        "year": 1996,
+        "sport": "Swimming",
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 27,
+        "country": "Great Britain",
+        "year": 2020,
+        "sport": "Boxing",
+        "gold": 4,
+        "silver": 3,
+        "bronze": 1
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 20,
+        "country": "Australia",
+        "year": 1988,
+        "sport": "Boxing",
+        "gold": 3,
+        "silver": 3,
+        "bronze": 1
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 31,
+        "country": "Japan",
+        "year": 2012,
+        "sport": "Tennis",
+        "gold": 3,
+        "silver": 4,
+        "bronze": 3
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 23,
+        "country": "China",
+        "year": 1988,
+        "sport": "Rowing",
+        "gold": 2,
+        "silver": 1,
+        "bronze": 4
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 26,
+        "country": "Italy",
+        "year": 1996,
+        "sport": "Tennis",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 27,
+        "country": "Russia",
+        "year": 1988,
+        "sport": "Rowing",
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 27,
+        "country": "South Korea",
+        "year": 2008,
+        "sport": "Cycling",
+        "gold": 3,
+        "silver": 4,
+        "bronze": 4
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 24,
+        "country": "Great Britain",
+        "year": 2000,
+        "sport": "Basketball",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 26,
+        "country": "Japan",
+        "year": 2008,
+        "sport": "Basketball",
+        "gold": 2,
+        "silver": 1,
+        "bronze": 2
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 24,
+        "country": "Australia",
+        "year": 2016,
+        "sport": "Soccer",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 4
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 26,
+        "country": "South Korea",
+        "year": 1984,
+        "sport": "Tennis",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 32,
+        "country": "South Korea",
+        "year": 2000,
+        "sport": "Basketball",
+        "gold": 4,
+        "silver": 0,
+        "bronze": 0
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 23,
+        "country": "Italy",
+        "year": 2016,
+        "sport": "Cycling",
+        "gold": 4,
+        "silver": 4,
+        "bronze": 1
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 23,
+        "country": "United States",
+        "year": 2012,
+        "sport": "Volleyball",
+        "gold": 1,
+        "silver": 3,
+        "bronze": 1
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 27,
+        "country": "France",
+        "year": 2004,
+        "sport": "Soccer",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 3
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 26,
+        "country": "South Korea",
+        "year": 2020,
+        "sport": "Boxing",
+        "gold": 2,
+        "silver": 3,
+        "bronze": 0
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 27,
+        "country": "Russia",
+        "year": 1984,
+        "sport": "Soccer",
+        "gold": 1,
+        "silver": 2,
+        "bronze": 3
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 34,
+        "country": "Germany",
+        "year": 2008,
+        "sport": "Gymnastics",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 20,
+        "country": "Japan",
+        "year": 1992,
+        "sport": "Athletics",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 32,
+        "country": "France",
+        "year": 1984,
+        "sport": "Cycling",
+        "gold": 4,
+        "silver": 3,
+        "bronze": 3
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 32,
+        "country": "Italy",
+        "year": 1984,
+        "sport": "Swimming",
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 27,
+        "country": "Japan",
+        "year": 1984,
+        "sport": "Gymnastics",
+        "gold": 2,
+        "silver": 3,
+        "bronze": 0
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 31,
+        "country": "South Korea",
+        "year": 2016,
+        "sport": "Tennis",
+        "gold": 4,
+        "silver": 0,
+        "bronze": 2
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 31,
+        "country": "France",
+        "year": 2020,
+        "sport": "Basketball",
+        "gold": 4,
+        "silver": 2,
+        "bronze": 1
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 24,
+        "country": "Italy",
+        "year": 1984,
+        "sport": "Volleyball",
+        "gold": 3,
+        "silver": 2,
+        "bronze": 4
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 20,
+        "country": "Australia",
+        "year": 1984,
+        "sport": "Boxing",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 3
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 22,
+        "country": "South Korea",
+        "year": 2020,
+        "sport": "Rowing",
+        "gold": 4,
+        "silver": 3,
+        "bronze": 0
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 28,
+        "country": "China",
+        "year": 1992,
+        "sport": "Swimming",
+        "gold": 0,
+        "silver": 4,
+        "bronze": 0
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 26,
+        "country": "China",
+        "year": 1992,
+        "sport": "Cycling",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 33,
+        "country": "Japan",
+        "year": 1988,
+        "sport": "Athletics",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 4
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 31,
+        "country": "Japan",
+        "year": 2004,
+        "sport": "Boxing",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 4
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 34,
+        "country": "France",
+        "year": 2000,
+        "sport": "Rowing",
+        "gold": 1,
+        "silver": 2,
+        "bronze": 2
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 20,
+        "country": "United States",
+        "year": 2016,
+        "sport": "Gymnastics",
+        "gold": 3,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 27,
+        "country": "Japan",
+        "year": 1988,
+        "sport": "Gymnastics",
+        "gold": 2,
+        "silver": 4,
+        "bronze": 4
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 20,
+        "country": "Germany",
+        "year": 1988,
+        "sport": "Basketball",
+        "gold": 2,
+        "silver": 1,
+        "bronze": 4
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 20,
+        "country": "China",
+        "year": 1984,
+        "sport": "Volleyball",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 27,
+        "country": "Italy",
+        "year": 1988,
+        "sport": "Boxing",
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 31,
+        "country": "Italy",
+        "year": 2008,
+        "sport": "Boxing",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 24,
+        "country": "Italy",
+        "year": 2000,
+        "sport": "Soccer",
+        "gold": 3,
+        "silver": 3,
+        "bronze": 3
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 20,
+        "country": "South Korea",
+        "year": 1988,
+        "sport": "Basketball",
+        "gold": 1,
+        "silver": 3,
+        "bronze": 0
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 33,
+        "country": "Australia",
+        "year": 2012,
+        "sport": "Swimming",
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 20,
+        "country": "Australia",
+        "year": 2008,
+        "sport": "Boxing",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 4
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 22,
+        "country": "Great Britain",
+        "year": 1988,
+        "sport": "Cycling",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 35,
+        "country": "Russia",
+        "year": 2016,
+        "sport": "Volleyball",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 1
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 26,
+        "country": "Japan",
+        "year": 2012,
+        "sport": "Gymnastics",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 20,
+        "country": "South Korea",
+        "year": 2012,
+        "sport": "Swimming",
+        "gold": 3,
+        "silver": 4,
+        "bronze": 2
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 21,
+        "country": "Germany",
+        "year": 2008,
+        "sport": "Tennis",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 21,
+        "country": "China",
+        "year": 1988,
+        "sport": "Volleyball",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 4
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 23,
+        "country": "United States",
+        "year": 1984,
+        "sport": "Volleyball",
+        "gold": 1,
+        "silver": 4,
+        "bronze": 0
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 22,
+        "country": "Great Britain",
+        "year": 2016,
+        "sport": "Soccer",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 1
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 25,
+        "country": "United States",
+        "year": 2000,
+        "sport": "Cycling",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 2
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 20,
+        "country": "Italy",
+        "year": 1992,
+        "sport": "Swimming",
+        "gold": 4,
+        "silver": 0,
+        "bronze": 2
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 26,
+        "country": "Germany",
+        "year": 2016,
+        "sport": "Gymnastics",
+        "gold": 1,
+        "silver": 3,
+        "bronze": 2
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 20,
+        "country": "Japan",
+        "year": 1992,
+        "sport": "Soccer",
+        "gold": 3,
+        "silver": 0,
+        "bronze": 3
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 22,
+        "country": "Great Britain",
+        "year": 2004,
+        "sport": "Athletics",
+        "gold": 1,
+        "silver": 4,
+        "bronze": 0
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 35,
+        "country": "Russia",
+        "year": 2016,
+        "sport": "Athletics",
+        "gold": 3,
+        "silver": 4,
+        "bronze": 1
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 27,
+        "country": "Japan",
+        "year": 1988,
+        "sport": "Athletics",
+        "gold": 2,
+        "silver": 3,
+        "bronze": 2
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 24,
+        "country": "Australia",
+        "year": 2004,
+        "sport": "Rowing",
+        "gold": 1,
+        "silver": 2,
+        "bronze": 0
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 32,
+        "country": "United States",
+        "year": 2016,
+        "sport": "Tennis",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 3
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 25,
+        "country": "Great Britain",
+        "year": 2012,
+        "sport": "Basketball",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 26,
+        "country": "China",
+        "year": 1992,
+        "sport": "Boxing",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 4
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 20,
+        "country": "Germany",
+        "year": 2000,
+        "sport": "Volleyball",
+        "gold": 0,
+        "silver": 4,
+        "bronze": 0
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 29,
+        "country": "South Korea",
+        "year": 2000,
+        "sport": "Tennis",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 25,
+        "country": "China",
+        "year": 2016,
+        "sport": "Boxing",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 3
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 31,
+        "country": "Russia",
+        "year": 2020,
+        "sport": "Swimming",
+        "gold": 4,
+        "silver": 0,
+        "bronze": 0
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 21,
+        "country": "Germany",
+        "year": 1996,
+        "sport": "Volleyball",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 2
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 24,
+        "country": "Australia",
+        "year": 2008,
+        "sport": "Basketball",
+        "gold": 3,
+        "silver": 2,
+        "bronze": 1
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 31,
+        "country": "United States",
+        "year": 2016,
+        "sport": "Volleyball",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 4
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 20,
+        "country": "Russia",
+        "year": 2000,
+        "sport": "Basketball",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 24,
+        "country": "Japan",
+        "year": 2004,
+        "sport": "Athletics",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 0
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 35,
+        "country": "France",
+        "year": 2000,
+        "sport": "Boxing",
+        "gold": 0,
+        "silver": 4,
+        "bronze": 4
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 29,
+        "country": "Russia",
+        "year": 2004,
+        "sport": "Boxing",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 31,
+        "country": "South Korea",
+        "year": 1992,
+        "sport": "Basketball",
+        "gold": 2,
+        "silver": 3,
+        "bronze": 4
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 35,
+        "country": "Australia",
+        "year": 1988,
+        "sport": "Volleyball",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 35,
+        "country": "Australia",
+        "year": 1996,
+        "sport": "Gymnastics",
+        "gold": 4,
+        "silver": 4,
+        "bronze": 2
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 28,
+        "country": "Australia",
+        "year": 2020,
+        "sport": "Volleyball",
+        "gold": 4,
+        "silver": 4,
+        "bronze": 4
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 35,
+        "country": "United States",
+        "year": 1984,
+        "sport": "Volleyball",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 33,
+        "country": "Australia",
+        "year": 2020,
+        "sport": "Tennis",
+        "gold": 4,
+        "silver": 2,
+        "bronze": 3
+    },
+    {
+        "athlete": "Tina Maze",
+        "age": 23,
+        "country": "United States",
+        "year": 2012,
+        "sport": "Gymnastics",
+        "gold": 3,
+        "silver": 4,
+        "bronze": 0
+    },
+    {
+        "athlete": "Julia Mancuso",
+        "age": 20,
+        "country": "United States",
+        "year": 2020,
+        "sport": "Swimming",
+        "gold": 3,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Betty Heidler",
+        "age": 24,
+        "country": "France",
+        "year": 1992,
+        "sport": "Athletics",
+        "gold": 3,
+        "silver": 3,
+        "bronze": 1
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 29,
+        "country": "Russia",
+        "year": 1988,
+        "sport": "Soccer",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 0
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 33,
+        "country": "Australia",
+        "year": 1984,
+        "sport": "Cycling",
+        "gold": 3,
+        "silver": 4,
+        "bronze": 0
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 20,
+        "country": "Japan",
+        "year": 2008,
+        "sport": "Boxing",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+    },
+    {
+        "athlete": "Missy Franklin",
+        "age": 29,
+        "country": "Italy",
+        "year": 1992,
+        "sport": "Tennis",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 2
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 35,
+        "country": "China",
+        "year": 2004,
+        "sport": "Gymnastics",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 4
+    },
+    {
+        "athlete": "Barbara Mensing",
+        "age": 27,
+        "country": "China",
+        "year": 2016,
+        "sport": "Rowing",
+        "gold": 0,
+        "silver": 4,
+        "bronze": 1
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 26,
+        "country": "Great Britain",
+        "year": 2020,
+        "sport": "Basketball",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 3
+    },
+    {
+        "athlete": "Michael Phelps",
+        "age": 29,
+        "country": "United States",
+        "year": 2020,
+        "sport": "Soccer",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 4
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 33,
+        "country": "United States",
+        "year": 2020,
+        "sport": "Soccer",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 26,
+        "country": "South Korea",
+        "year": 2016,
+        "sport": "Soccer",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1
+    },
+    {
+        "athlete": "Lindsay Vonn",
+        "age": 28,
+        "country": "Germany",
+        "year": 2020,
+        "sport": "Soccer",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 3
+    },
+    {
+        "athlete": "Butch Johnson",
+        "age": 20,
+        "country": "Australia",
+        "year": 2008,
+        "sport": "Basketball",
+        "gold": 3,
+        "silver": 3,
+        "bronze": 4
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 25,
+        "country": "Italy",
+        "year": 1996,
+        "sport": "Soccer",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+    },
+    {
+        "athlete": "Reese Hoffa",
+        "age": 27,
+        "country": "China",
+        "year": 1988,
+        "sport": "Rowing",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+    },
+    {
+        "athlete": "Bode Miller",
+        "age": 20,
+        "country": "Germany",
+        "year": 2016,
+        "sport": "Tennis",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3
+    }
+]
