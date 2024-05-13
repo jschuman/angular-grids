@@ -1,0 +1,27 @@
+<p-table 
+    [columns]="cols" 
+    [value]="rowData" 
+    [paginator]="true"
+    [rows]="5"
+    [rowsPerPageOptions]="[5, 10, 20]"
+    [tableStyle]="{ 'min-width': '50rem' }"
+    [sortField]="sortField" 
+    [sortOrder]="sortOrder"
+>
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+            <th *ngFor="let col of columns" pSortableColumn={{col.field}} [pSortableColumnDisabled]="col.sort == false ? true : false">
+                {{ col.header }} 
+                <p-sortIcon  *ngIf="col.sort != false" field={{col.field}} />
+                <p-columnFilter type="text" field={{col.field}} display="menu" />
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr>
+            <td *ngFor="let col of columns">
+                {{ rowData[col.field] }}
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
