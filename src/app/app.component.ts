@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AggridComponent } from './aggrid/aggrid.component';
+import { AggridClientComponent } from './aggrid-client/aggrid-client.component';
 import { AggridServerComponent } from './aggrid-server/aggrid-server.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AggridComponent, AggridServerComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

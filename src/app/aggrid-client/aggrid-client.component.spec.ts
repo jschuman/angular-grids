@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AggridComponent } from './aggrid.component';
+import { AggridComponent } from './aggrid-client.component';
 
 describe('AggridComponent', () => {
   let component: AggridComponent;

@@ -8,14 +8,14 @@ import { ContractCellRendererComponent } from '../contract-cell-renderer/contrac
 import data from "../../assets/data.json";
 
 @Component({
-  selector: 'app-aggrid',
+  selector: 'app-aggrid-client',
   standalone: true,
   imports: [AgGridAngular, HttpClientModule],
-  templateUrl: './aggrid.component.html',
-  styleUrl: './aggrid.component.css'
+  templateUrl: './aggrid-client.component.html',
+  styleUrl: './aggrid-client.component.css'
 })
 
-export class AggridComponent {
+export class AggridClientComponent {
 
   // Row Data: The data to be displayed.
   public rowData: any[] = data as any[];
