@@ -1,21 +1,22 @@
 import { Component } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
-import { TableModule } from 'primeng/table';
-import data from "../../assets/data.json";
+import { TableModule, TableLazyLoadEvent } from 'primeng/table';
 import { IOlympicData } from '../../interfaces';
+import { DataService } from '../../dataService';
+
 
 @Component({
-  selector: 'app-primeng-client',
+  selector: 'app-primeng-server',
   standalone: true,
   imports: [TableModule, NgFor, NgIf],
-  templateUrl: './primeng-client.component.html',
-  styleUrl: './primeng-client.component.css'
+  templateUrl: './primeng-server.component.html',
+  styleUrl: './primeng-server.component.css'
 })
+export class PrimengServerComponent {
 
-
-export class PrimengClientComponent {
-
-  public rowData: IOlympicData[] = data as IOlympicData[];
+  rowData: IOlympicData[] = [];
+  totalRecords: number = 0;
+  loading: boolean = true;
 
   // declare an array of objects with each objecthaving a string header property
   public cols: { header: string, field: string, sort?: boolean }[] = [
@@ -33,5 +34,19 @@ export class PrimengClientComponent {
   public sortField: string = "age";
   public sortOrder: number = 1;
 
+  constructor() { }
+
+  loadData(event: TableLazyLoadEvent) {
+    this.loading = true;
+
+    setTimeout(() => {
+        let dataService: any = DataService();
+        let result = dataService.getData({lazyEvent: JSON.stringify(event)});
+          
+        this.rowData = result.data;
+        this.totalRecords = result.totalRecords;
+        this.loading = false;
+    }, 1000);
+  }
 
 }
