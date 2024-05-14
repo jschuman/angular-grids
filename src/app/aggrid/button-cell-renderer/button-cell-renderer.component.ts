@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ICellRendererAngularComp } from 'ag-grid-angular';
 import { ICellRendererParams } from 'ag-grid-community';
-import { IButtonCellParams } from '../../interfaces';
+import { IButtonCellParams } from '../../../interfaces';
 
 @Component({
   selector: 'app-button-cell-renderer',

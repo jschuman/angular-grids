@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { AgGridAngular } from 'ag-grid-angular'; // Angular Data Grid Component
 import { ColDef, GridReadyEvent, ICellRendererParams } from 'ag-grid-community'; // Column Definition Type Interface
-import { IButtonCellParams, IOlympicData } from '../../interfaces';
+import { IButtonCellParams, IOlympicData } from '../../../interfaces';
 import { ButtonCellRendererComponent } from '../button-cell-renderer/button-cell-renderer.component';
 import { ContractCellRendererComponent } from '../contract-cell-renderer/contract-cell-renderer.component';
-import data from "../../assets/data.json";
+import data from "../../../assets/data.json";
 
 @Component({
   selector: 'app-aggrid-client',

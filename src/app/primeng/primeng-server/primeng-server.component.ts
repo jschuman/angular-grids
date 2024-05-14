@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
 import { TableModule, TableLazyLoadEvent } from 'primeng/table';
-import { IOlympicData } from '../../interfaces';
-import { DataService } from '../../dataService';
+import { IOlympicData } from '../../../interfaces';
+import { DataService } from '../../../dataService';
 
 
 @Component({

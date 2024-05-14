@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
 import { TableModule } from 'primeng/table';
-import data from "../../assets/data.json";
-import { IOlympicData } from '../../interfaces';
+import data from "../../../assets/data.json";
+import { IOlympicData } from '../../../interfaces';
 
 @Component({
   selector: 'app-primeng-client',

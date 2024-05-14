@@ -10,8 +10,8 @@ import {
   GetRowIdParams,
   ICellRendererParams } from 'ag-grid-community'; // Column Definition Type Interface
 
-import { FakeServer } from '../../fakeServer';
-import { IOlympicDataWithId } from '../../interfaces';
+import { FakeServer } from '../../../fakeServer';
+import { IOlympicDataWithId } from '../../../interfaces';
 
 @Component({
   selector: 'app-aggrid-server',
