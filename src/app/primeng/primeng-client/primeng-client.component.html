@@ -1,3 +1,5 @@
+<h3>PrimeNg Table - Client Side Pagination</h3>
+
 <p-table 
     [columns]="cols" 
     [value]="rowData" 
@@ -15,12 +17,23 @@
                 <p-sortIcon  *ngIf="col.sort != false" field={{col.field}} />
                 <p-columnFilter type="text" field={{col.field}} display="menu" />
             </th>
+            <th>
+                Actions
+            </th>
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-rowData let-columns="columns">
         <tr>
             <td *ngFor="let col of columns">
-                {{ rowData[col.field] }}
+                <div *ngIf="!col.customRenderer">{{ rowData[col.field] }}</div>
+                <div *ngIf="col.customRenderer && col.customRenderer == 'medal'">
+                    <app-medal data={{rowData[col.field]}} field={{col.field}}></app-medal>
+                </div>
+            </td>
+            <td>
+                <div *ngIf="rowData['gold'] > 2">
+                    <app-contract></app-contract>
+                </div>
             </td>
         </tr>
     </ng-template>
