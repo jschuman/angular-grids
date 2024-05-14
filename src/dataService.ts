@@ -43,7 +43,12 @@ export function DataService() {
                 const athlete = item.athlete;
                 const filterAthlete = params.filters.athlete.value.toLowerCase();
 
-                //only support contains for now
+                //support contains and startsWith for now
+                if (params.filters.athlete.matchMode == "startsWith"){
+                    if (!item.athlete.toLowerCase().startsWith(filterAthlete)) {
+                        continue;
+                    }
+                }
                 if (params.filters.athlete.matchMode == "contains"){
                     if (!item.athlete.toLowerCase().includes(filterAthlete)) {
                         continue;
