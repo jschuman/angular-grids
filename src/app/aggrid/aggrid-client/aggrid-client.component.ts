@@ -27,7 +27,11 @@ export class AggridClientComponent {
 
   // Column Definitions: Defines the columns to be displayed.
   public columnDefs: ColDef[] = [
-    { field: "athlete", minWidth: 200 },
+    { 
+      field: "athlete", 
+      minWidth: 200,
+      checkboxSelection: true,
+      headerCheckboxSelection: true },
     {
       field: "age"
     },
@@ -84,6 +88,8 @@ export class AggridClientComponent {
 
   // allows the user to select the page size from a predefined list of page sizes
   public paginationPageSizeSelector = [10, 20, 50, 100];
+
+  public rowSelection: "single" | "multiple" = "multiple";
 
   constructor(private http: HttpClient) { }
 

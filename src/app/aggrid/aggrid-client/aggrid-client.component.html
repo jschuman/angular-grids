@@ -2,7 +2,7 @@
 
 <!-- The AG Grid component -->
 <ag-grid-angular
-    class="ag-theme-quartz"
+    class="ag-theme-material"
     style="height: 400px;"
     [rowData]="rowData"
     [defaultColDef]="defaultColDef"
@@ -11,4 +11,6 @@
     [pagination]="pagination"
     [paginationPageSize]="paginationPageSize"
     [paginationPageSizeSelector]="paginationPageSizeSelector"
+    [rowSelection]="rowSelection"
+    [suppressRowClickSelection]="true"
 ></ag-grid-angular>
