@@ -13,9 +13,11 @@ import { AggridClientComponent } from '../aggrid-client/aggrid-client.component'
 export class ContractCellRendererComponent implements ICellRendererAngularComp {
 
   componentParent?: AggridClientComponent;
+  rowNumber: number = 0;
 
   agInit(params: any): void {
     this.componentParent = params.context.parentGrid;
+    this.rowNumber = params.rowNumber;
   }
 
   refresh(params: ICellRendererParams<any, any, any>): boolean {
@@ -24,7 +26,7 @@ export class ContractCellRendererComponent implements ICellRendererAngularComp {
 
   onButtonClicked() {
     console.log("button clicked from cell renderer");
-    this.componentParent?.sayHello();
+    this.componentParent?.sayHello(this.rowNumber);
   }
 
 }

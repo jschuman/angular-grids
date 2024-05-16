@@ -75,7 +75,12 @@ export class AggridClientComponent {
       headerName: "Actions", 
       cellRendererSelector: (params: ICellRendererParams) => {
         if (params.data.gold > 2){
-          return { component: ContractCellRendererComponent};
+          return { 
+            component: ContractCellRendererComponent,
+            params: {
+              rowNumber: params.node.rowIndex
+            }
+          };
         }
         return {  }
       }  
@@ -93,8 +98,8 @@ export class AggridClientComponent {
 
   public rowSelection: "single" | "multiple" = "multiple";
 
-  public sayHello() {
-    console.log('Hello from the parent component!')
+  public sayHello(rowNumber: number) {
+    console.log(`Hello from the parent component! ${this.rowData[rowNumber].athlete} was clicked.`)
   }
 
   constructor(private http: HttpClient) { 
