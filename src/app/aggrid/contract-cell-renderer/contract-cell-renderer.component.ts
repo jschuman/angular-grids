@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ICellRendererAngularComp } from 'ag-grid-angular';
 import { ICellRendererParams } from 'ag-grid-community';
+import { AggridClientComponent } from '../aggrid-client/aggrid-client.component';
 
 @Component({
   selector: 'app-contract-cell-renderer',
@@ -11,11 +12,19 @@ import { ICellRendererParams } from 'ag-grid-community';
 })
 export class ContractCellRendererComponent implements ICellRendererAngularComp {
 
-  agInit(params: ICellRendererParams<any, any, any>): void {
-    
+  componentParent?: AggridClientComponent;
+
+  agInit(params: any): void {
+    this.componentParent = params.context.parentGrid;
   }
 
   refresh(params: ICellRendererParams<any, any, any>): boolean {
     return false;
   }
+
+  onButtonClicked() {
+    console.log("button clicked from cell renderer");
+    this.componentParent?.sayHello();
+  }
+
 }

@@ -17,6 +17,8 @@ import data from "../../../assets/data.json";
 
 export class AggridClientComponent {
 
+  context: any;
+
   // Row Data: The data to be displayed.
   public rowData: any[] = data as any[];
 
@@ -91,10 +93,19 @@ export class AggridClientComponent {
 
   public rowSelection: "single" | "multiple" = "multiple";
 
-  constructor(private http: HttpClient) { }
+  public sayHello() {
+    console.log('Hello from the parent component!')
+  }
+
+  constructor(private http: HttpClient) { 
+    
+    //setup context
+    this.context = { parentGrid: this };
+
+  }
 
   onGridReady(params: GridReadyEvent<IOlympicData>) {
-
+    
     // this.http
     //   .get<
     //     IOlympicData[]
