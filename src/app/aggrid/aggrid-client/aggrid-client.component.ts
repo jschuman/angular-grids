@@ -6,6 +6,7 @@ import { IButtonCellParams, IOlympicData } from '../../../interfaces';
 import { ButtonCellRendererComponent } from '../button-cell-renderer/button-cell-renderer.component';
 import { ContractCellRendererComponent } from '../contract-cell-renderer/contract-cell-renderer.component';
 import data from "../../../assets/data.json";
+import { MultiSelectFilterComponent } from '../multi-select-filter/multi-select-filter.component';
 
 @Component({
   selector: 'app-aggrid-client',
@@ -40,9 +41,9 @@ export class AggridClientComponent {
     {
       field: "country",
       minWidth: 200,
-      filter: false,
+      filter: MultiSelectFilterComponent,
       cellRenderer: (params: ICellRendererParams) => {
-        return `Custom: <b>${params.value}</b>`;
+        return `<b>${params.value}</b>`;
       }
     },
     { field: "year" },

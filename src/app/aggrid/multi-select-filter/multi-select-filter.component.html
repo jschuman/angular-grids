@@ -1,0 +1,5 @@
+<div class="filter-dropdown">
+    <label *ngFor="let option of filterOptions">
+      <input type="checkbox" [(ngModel)]="option.selected" (change)="onFilterChanged()">{{ option.label }}
+    </label>
+</div>
