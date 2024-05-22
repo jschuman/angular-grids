@@ -5,6 +5,7 @@ import { ColDef, GridReadyEvent, ICellRendererParams } from 'ag-grid-community';
 import { IButtonCellParams, IOlympicData } from '../../../interfaces';
 import { ButtonCellRendererComponent } from '../button-cell-renderer/button-cell-renderer.component';
 import { ContractCellRendererComponent } from '../contract-cell-renderer/contract-cell-renderer.component';
+import { YearFilter } from '../year-filter/year-filter.component';
 import data from "../../../assets/data.json";
 
 @Component({
@@ -45,7 +46,7 @@ export class AggridClientComponent {
         return `Custom: <b>${params.value}</b>`;
       }
     },
-    { field: "year" },
+    { field: "year", filter: YearFilter},
     { field: "sport", minWidth: 200, menuTabs: [] },
     { 
       field: "gold", 
