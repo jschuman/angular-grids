@@ -1,0 +1,15 @@
+:host ::ng-deep .ag-filter-icon {
+    display: none !important;
+    margin-left: 0;
+  }
+  
+:host ::ng-deep .ag-header-cell .ag-header-icon {
+    opacity: 0; /* Hide it by default */
+    transition: opacity 0.2s;
+}
+  
+:host ::ng-deep .ag-header-cell:hover .ag-header-icon,
+:host ::ng-deep .ag-header-cell-filtered .ag-header-icon {
+    opacity: 1 !important; /* Show on hover or when filtered */
+}
+  
