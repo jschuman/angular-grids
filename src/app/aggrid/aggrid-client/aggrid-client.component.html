@@ -8,7 +8,12 @@
       placeholder="Filter..."
       (input)="onFilterTextBoxChanged()"
     />
+    &nbsp;&nbsp; <!-- Add some space using non-breaking spaces -->
+    <button (click)="onBtnExportDataAsCsv()">Export to CSV</button>
+    
 </div>
+
+
 <!-- The AG Grid component -->
 <ag-grid-angular
     [context]="context"

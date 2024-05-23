@@ -150,9 +150,11 @@ export class AggridClientComponent {
     );
   }
 
-  onGridReady(params: GridReadyEvent<IOlympicData>) {
+  onBtnExportDataAsCsv() {
+    this.gridApi.exportDataAsCsv();
+  }
 
+  onGridReady(params: GridReadyEvent<IOlympicData>) {
     this.gridApi = params.api;
-    
   }
 }
