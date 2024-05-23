@@ -21,10 +21,17 @@ export class AggridClientComponent {
 
   context: any;
 
+  // specify the locale text here
+  localeText = {
+    pageSizeSelectorLabel: 'Rows per Page',
+    ariaPageSizeSelectorLabel: 'Rows per Page',
+  }
+
   gridOptions = {
     onFilterChanged: (event: { api: any; }) => {
       this.updateMenuIcons(event.api);
-    }
+    },
+    
   };
 
   updateMenuIcons(gridApi: any) {
