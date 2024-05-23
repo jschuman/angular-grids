@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { AgGridAngular } from 'ag-grid-angular'; // Angular Data Grid Component
-import { ColDef, GridReadyEvent, ICellRendererParams } from 'ag-grid-community'; // Column Definition Type Interface
+import { ColDef, GridReadyEvent, ICellRendererParams, GridApi } from 'ag-grid-community'; // Column Definition Type Interface
 import { IButtonCellParams, IOlympicData } from '../../../interfaces';
 import { ButtonCellRendererComponent } from '../button-cell-renderer/button-cell-renderer.component';
 import { ContractCellRendererComponent } from '../contract-cell-renderer/contract-cell-renderer.component';
@@ -20,6 +20,8 @@ import { MultiSelectFilterComponent } from '../multi-select-filter/multi-select-
 export class AggridClientComponent {
 
   context: any;
+
+  private gridApi!: GridApi;
 
   // specify the locale text here
   localeText = {
@@ -141,13 +143,16 @@ export class AggridClientComponent {
 
   }
 
+  onFilterTextBoxChanged() {
+    this.gridApi.setGridOption(
+      "quickFilterText",
+      (document.getElementById("filter-text-box") as HTMLInputElement).value,
+    );
+  }
+
   onGridReady(params: GridReadyEvent<IOlympicData>) {
-    
-    // this.http
-    //   .get<
-    //     IOlympicData[]
-    //   >("https://www.ag-grid.com/example-assets/olympic-winners.json")
-    //   .subscribe((data) => (this.rowData = data));
+
+    this.gridApi = params.api;
     
   }
 }

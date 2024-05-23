@@ -1,5 +1,14 @@
 <h3>AG Grid - Client Side Pagination</h3>
 
+<div class="example-header">
+    <span>Quick Filter:</span>
+    <input
+      type="text"
+      id="filter-text-box"
+      placeholder="Filter..."
+      (input)="onFilterTextBoxChanged()"
+    />
+</div>
 <!-- The AG Grid component -->
 <ag-grid-angular
     [context]="context"
