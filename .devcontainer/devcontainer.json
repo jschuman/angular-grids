@@ -1,0 +1,14 @@
+{
+    "name": "Your Codespace Name",
+    "image": "node:14",
+    "postCreateCommand": "npm install -g @angular/cli",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"github.github-vscode-theme",
+                "github.copilot",
+                "GitHub.copilot-chat"
+			]
+		}
+	}
+  }
