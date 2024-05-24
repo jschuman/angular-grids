@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ICellRendererAngularComp } from 'ag-grid-angular';
 import { ICellRendererParams } from 'ag-grid-community';
 import { AggridClientComponent } from '../aggrid-client/aggrid-client.component';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
 
 @Component({
   selector: 'app-contract-cell-renderer',
@@ -30,7 +30,12 @@ export class ContractCellRendererComponent implements ICellRendererAngularComp {
   onButtonClicked() {
     console.log("button clicked from cell renderer");
     this.componentParent?.sayHello(this.rowNumber);
-    this.router.navigate(['/custom-form']);
+    
+    // In the real world, you would pass the ID of the record, not the row number.
+    const extras: NavigationExtras = {
+      state: { id: this.rowNumber },
+    };
+     this.router.navigate(['/custom-form'], extras);
   }
 
 }
