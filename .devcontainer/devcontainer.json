@@ -1,14 +1,16 @@
 {
-    "name": "Your Codespace Name",
-    "image": "node:14",
+    "name": "Codespace Alpha",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "npm install",
     "postCreateCommand": "npm install -g @angular/cli",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"github.github-vscode-theme",
-                "github.copilot",
-                "GitHub.copilot-chat"
-			]
-		}
+    "customizations": {
+	"vscode": {
+	    "extensions": [
+		"github.github-vscode-theme",
+		"github.copilot",
+		"github.copilot-chat"
+	    ]
 	}
-  }
+    }
+}
