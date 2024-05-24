@@ -29,30 +29,6 @@ export class AggridClientComponent {
     ariaPageSizeSelectorLabel: 'Rows per Page',
   }
 
-  gridOptions = {
-    onFilterChanged: (event: { api: any; }) => {
-      this.updateMenuIcons(event.api);
-    },
-    
-  };
-
-  updateMenuIcons(gridApi: any) {
-    gridApi.forEachNode(() => {
-      const filterModel = gridApi.getFilterModel();
-      const allColumns = gridApi.getColumnApi().getAllColumns();
-      allColumns.forEach((column: { getColId: () => string | number; }) => {
-        const headerCell = document.querySelector(`.ag-header-cell[col-id="${column.getColId()}"]`);
-        if (headerCell) {
-          if (filterModel[column.getColId()]) {
-            headerCell.classList.add('ag-header-cell-filtered');
-          } else {
-            headerCell.classList.remove('ag-header-cell-filtered');
-          }
-        }
-      });
-    });
-  }
-
   // Row Data: The data to be displayed.
   public rowData: any[] = data as any[];
 

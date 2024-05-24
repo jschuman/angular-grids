@@ -13,3 +13,10 @@
     opacity: 1 !important; /* Show on hover or when filtered */
 }
   
+:host ::ng-deep .ag-header-cell-filtered .ag-icon-menu {
+    background-color: #C1EAFF;
+}
+
+:host ::ng-deep .ag-header-cell .ag-icon-menu {
+    color: blue;
+}
